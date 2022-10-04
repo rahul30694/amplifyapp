@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "api": {
+      "amplifyapp": [
+        "Query"
+      ]
+    },
+    "storage": {
+      "Todo:@model(appsync)": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "test",
+      "environmentVariableName": "test"
+    }
+  ],
+  "secretNames": [
+    "tst1"
+  ]
+}

@@ -11,5 +11,45 @@
       "StackId": "arn:aws:cloudformation:us-east-2:007923285948:stack/amplify-amplify1299e5e0a4fc4-staging-103725/349ccbd0-423e-11ed-9878-06e2874f3fea",
       "AmplifyAppId": "d2yhet75cxar6q"
     }
+  },
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyapp-dev-93639-authRole",
+      "UnauthRoleArn": "arn:aws:iam::007923285948:role/amplify-amplifyapp-dev-93639-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::007923285948:role/amplify-amplifyapp-dev-93639-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-amplifyapp-dev-93639-deployment",
+      "UnauthRoleName": "amplify-amplifyapp-dev-93639-unauthRole",
+      "StackName": "amplify-amplifyapp-dev-93639",
+      "StackId": "arn:aws:cloudformation:us-east-2:007923285948:stack/amplify-amplifyapp-dev-93639/fd622b80-4399-11ed-95bd-02ddc053f99c",
+      "AmplifyAppId": "d2yhet75cxar6q"
+    }
+  },
+  "test": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyapp-test-95625-authRole",
+      "UnauthRoleArn": "arn:aws:iam::007923285948:role/amplify-amplifyapp-test-95625-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::007923285948:role/amplify-amplifyapp-test-95625-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-amplifyapp-test-95625-deployment",
+      "UnauthRoleName": "amplify-amplifyapp-test-95625-unauthRole",
+      "StackName": "amplify-amplifyapp-test-95625",
+      "StackId": "arn:aws:cloudformation:us-east-2:007923285948:stack/amplify-amplifyapp-test-95625/c03dfb00-439c-11ed-9744-02704105ffce",
+      "AmplifyAppId": "d2yhet75cxar6q",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-amplifyapp-test-95625-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "amplifyappfbed9a78": {
+          "test": "1",
+          "secretsPathAmplifyAppId": "d2yhet75cxar6q",
+          "deploymentBucketName": "amplify-amplifyapp-test-95625-deployment",
+          "s3Key": "amplify-builds/amplifyappfbed9a78-34623032757a65333236-build.zip"
+        }
+      },
+      "auth": {
+        "undefined": {}
+      }
+    }
   }
 }
